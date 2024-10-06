@@ -150,6 +150,9 @@ footer p {
   color: red;
   border: 1px solid red;
 }
+.info {
+display:block;
+}
 
 /* Media Queries for Small Screens */
 @media (max-width: 768px) {
