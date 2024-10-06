@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countries Information</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body class="bg-light">
+    <!-- Header Section -->
+    <header class="text-center py-4">
+      <h1 class="display-4">Countries Information</h1>
+      <p class="lead">Enter a country name and get detailed information!</p>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="container">
+      <!-- Input Section -->
+      <div class="input-group mb-3">
+        <input
+          id="input__information"
+          type="text"
+          class="form-control"
+          placeholder="Enter country name..."
+          aria-label="Country name"
+        />
+        <button id="btn" class="btn btn-primary" type="button">GET</button>
+      </div>
+
+      <!-- Results Section -->
+      <section id="box" class="mt-4 p-3 bg-white shadow rounded"></section>
+    </main>
+
+    <!-- Loader -->
+    <div id="overlay" class="overlay" style="display: none">
+      <div class="spinner"></div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="text-center py-4">
+      <p>&copy; 2024 Countries Information | Powered by REST Countries API</p>
+    </footer>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
